@@ -1,0 +1,13 @@
+{
+  "name": "memory-leak-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "stream:test": "node stream.js"
+  },
+  "author": "",
+  "dependencies": {
+    "node-fetch": "^1.0.0"
+  },
+  "license": "ISC"
+}
