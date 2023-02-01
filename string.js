@@ -2,6 +2,7 @@ const http = require("http");
 
 // Create a local server to receive data from
 const server = http.createServer(async (req, res) => {
+  // 模拟等待接口请求 1s
   await new Promise((res) => setTimeout(res, 1000));
 
   res.write("1111111111111111");

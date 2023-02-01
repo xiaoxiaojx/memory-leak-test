@@ -30,6 +30,7 @@ const server = http.createServer((req, res) => {
     new Promise((res) => {
       setTimeout(() => {
         res("3333333333333");
+        // 模拟等待接口请求 1s
       }, 1000);
     }),
   ]).pipe(res);
